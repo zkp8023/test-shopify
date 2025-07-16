@@ -1,0 +1,263 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main-page": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "heading_size": "title-xl tracking-heading",
+        "heading_alignment": "text-left",
+        "heading_tag": "h1",
+        "text_size": "text-base",
+        "padding_top": 72,
+        "padding_bottom": 120,
+        "divider": false,
+        "narrow": true,
+        "rounded": false
+      }
+    },
+    "image_with_text_w3Nxpr": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_rtfiBK": {
+          "type": "heading",
+          "settings": {
+            "heading": "Who we are",
+            "heading_size": "title-sm",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_DXx7N7": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We know how important independence and freedom is. That’s why we’re committed to providing premium mobility scooters—helping our customers<strong> regain freedom </strong>with every ride.<br/><br/>Moooov was established in LA, a trusted brand with high-quality and reliability. </p><p>Our team of friendly experts provides professional services to ensure you find the perfect mobility scooter or wheelchair for you.</p>",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "heading_rtfiBK",
+        "text_DXx7N7"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/mobility_scooter_electric_wheelchair_rental_in_LA_CA_USA.jpg",
+        "image_height": "650px",
+        "image_width": "medium",
+        "layout": "image_first",
+        "text_alignment": "left",
+        "content_position": "align-self-center",
+        "image_mobile": "shopify://shop_images/mobility_scooter_electric_wheelchair_rental_in_LA_CA_USA.jpg",
+        "image_height_mobile": "400px",
+        "text_alignment_mobile": "left",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_background_2": "",
+        "gradient_background_2": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 32,
+        "padding_bottom": 32,
+        "divider": false,
+        "full_width": false,
+        "rounded": false,
+        "enable_parallax": true,
+        "parallax_direction": "vertical"
+      }
+    },
+    "image_with_text_ienGHV": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_rhAGj7": {
+          "type": "heading",
+          "settings": {
+            "heading": "What We Offer",
+            "heading_size": "title-sm",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_XxrmPf": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Imagine effortlessly running errands, visiting friends, or enjoying the outdoors—all on your own terms. A mobility scooter isn’t just an equipment. it’s your ticket to <strong>independence</strong>, <strong>confidence</strong>, and a <strong>better quality of life</strong>. No more relying on others or struggling with daily tasks.</p><p>Why choose us?<br/>✔ <strong>Affordable Price</strong> – Premium mobility should be affordable. We offer competitive rates without compromising quality.<br/>✔ <strong>Best-in-Class Service</strong> – From expert guidance to hassle-free support, we’re with you every step of the way.<br/>✔ <strong>Innovative Design</strong> – Enjoy cutting-edge features like enhanced stability, long-range batteries, and quick folding for a smoother ride.</p>",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "heading_rhAGj7",
+        "text_XxrmPf"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/business-executives-discussing-with-their-colleagues-whiteboa_1170-1837.jpg",
+        "image_height": "650px",
+        "image_width": "medium",
+        "layout": "text_first",
+        "text_alignment": "left",
+        "content_position": "align-self-center",
+        "image_mobile": "shopify://shop_images/business-executives-discussing-with-their-colleagues-whiteboa_1170-1837.jpg",
+        "image_height_mobile": "400px",
+        "text_alignment_mobile": "left",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_background_2": "",
+        "gradient_background_2": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 32,
+        "padding_bottom": 32,
+        "divider": false,
+        "full_width": false,
+        "rounded": false,
+        "enable_parallax": true,
+        "parallax_direction": "vertical"
+      }
+    },
+    "image_with_text_4tCxjY": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_FHjGrM": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Mission",
+            "heading_size": "title-sm",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_nLtVUH": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We’re committed to making mobility <strong>easy, affordable, and worry-free</strong>. Whether you’re here for a short-term rental or something longer, we’ll ensure you have a reliable ride and a great experience from start to finish.</p><p>Thank you for choosing Moooov—let’s get moving together!</p>",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "button_EGbKyz": {
+          "type": "button",
+          "settings": {
+            "button_label": "Contact Us",
+            "button_link": "shopify://pages/contact",
+            "button_style": "primary",
+            "button_size": "md",
+            "button_external": false,
+            "button_icon": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_FHjGrM",
+        "text_nLtVUH",
+        "button_EGbKyz"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/mobility_scooter_rental_company_customer_service_5f6a28c3-02b1-401e-a426-e376930a79c0.jpg",
+        "image_height": "650px",
+        "image_width": "medium",
+        "layout": "image_first",
+        "text_alignment": "left",
+        "content_position": "align-self-center",
+        "image_mobile": "shopify://shop_images/mobility_scooter_rental_company_customer_service_5f6a28c3-02b1-401e-a426-e376930a79c0.jpg",
+        "image_height_mobile": "400px",
+        "text_alignment_mobile": "left",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_background_2": "",
+        "gradient_background_2": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 32,
+        "padding_bottom": 32,
+        "divider": false,
+        "full_width": false,
+        "rounded": false,
+        "enable_parallax": true,
+        "parallax_direction": "vertical"
+      }
+    },
+    "featured-collection": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "",
+        "products": [
+          "metro-mobility-max-sport",
+          "ultralight-compact-foldable-mobility-scooter",
+          "metro-mobility-air-classic",
+          "carbon-fiber-electric-wheelchair"
+        ],
+        "product_limit": 4,
+        "columns": 4,
+        "carousel_on_desktop": true,
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "heading": "Hot Rentals",
+        "heading_size": "title-md",
+        "heading_alignment": "text-left md:items-end md:flex-row",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 32,
+        "padding_bottom": 32,
+        "divider": false,
+        "full_width": false,
+        "rounded": true
+      }
+    }
+  },
+  "order": [
+    "main-page",
+    "image_with_text_w3Nxpr",
+    "image_with_text_ienGHV",
+    "image_with_text_4tCxjY",
+    "featured-collection"
+  ]
+}

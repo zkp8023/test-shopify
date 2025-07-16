@@ -14,16 +14,14 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16939203417"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
+      function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
 
       gtag('config', 'AW-16939203417');
     </script>
     <script>
       gtag('config', 'AW-16939203417/sRLPCOWfqa8aENn2no0_', {
-        phone_conversion_number: '（888）5203590',
+        'phone_conversion_number': '（888）5203590'
       });
     </script>
 
@@ -117,14 +115,17 @@
       if settings.enable_page_transition
         render 'loading-bar'
       endif
+
       render 'mouse-cursor'
+
       sections 'header-group'
       sections 'overlay-group'
     -%}
 
     <div class="page-container" id="PageContainer">
-      1231
-      <main class="main-content relative" id="MainContent" role="main">{{ content_for_layout }}</main>
+      <main class="main-content relative" id="MainContent" role="main">
+        {{ content_for_layout }}
+      </main>
 
       <footer-group class="footer-group block w-full">
         {%- sections 'footer-group' -%}
@@ -150,43 +151,39 @@
     </script>
     <!-- <script src="https://658d12f3-3be8-4da5-abf4-d07dc5455fb6.assets.booqable.com/v2/booqable.js"></script> -->
     <script>
+         window.addEventListener('load', function (event) {
+             document.querySelector('[class="rs-btn rs-btn-default vehicle-search-button"]').addEventListener('click', function () {
+                 gtag('event', 'conversion', { 'send_to': 'AW-17008551972/MlOICLfa580aEKTQp64_' });
+
+                 });
+             });
       window.addEventListener('load', function (event) {
-        document
-          .querySelector('[class="rs-btn rs-btn-default vehicle-search-button"]')
-          .addEventListener('click', function () {
-            gtag('event', 'conversion', { send_to: 'AW-17008551972/MlOICLfa580aEKTQp64_' });
-          });
-      });
-      window.addEventListener('load', function (event) {
-        document
-          .querySelector('[class="button button--primary button--sm button--fixed"]')
-          .addEventListener('click', function () {
-            gtag('event', 'conversion', { send_to: 'AW-17008551972/uoe0COCU9s4aEKTQp64_' });
-          });
-      });
-      window.addEventListener('load', function (event) {
-        document
-          .querySelector(
-            '[class="header--phone hidden lg:flex button w-auto button--md hidden lg:flex items-center justify-center"]'
-          )
-          .addEventListener('click', function () {
-            gtag('event', 'conversion', { send_to: 'AW-17008551972/SjLBCPrT884aEKTQp64_' });
-          });
-      });
-      window.addEventListener('load', function (event) {
-        document
-          .querySelector('[class="block reversed-link text-sm-lg leading-tight"]')
-          .addEventListener('click', function () {
-            gtag('event', 'conversion', { send_to: 'AW-17008551972/SjLBCPrT884aEKTQp64_' });
-          });
-      });
+             document.querySelector('[class="button button--primary button--sm button--fixed"]').addEventListener('click', function () {
+                 gtag('event', 'conversion', { 'send_to': 'AW-17008551972/uoe0COCU9s4aEKTQp64_' });
+
+                 });
+             });
+        window.addEventListener('load', function (event) {
+             document.querySelector('[class="header--phone hidden lg:flex button w-auto button--md hidden lg:flex items-center justify-center"]').addEventListener('click', function () {
+                 gtag('event', 'conversion', { 'send_to': 'AW-17008551972/SjLBCPrT884aEKTQp64_' });
+
+                 });
+             });
+            window.addEventListener('load', function (event) {
+             document.querySelector('[class="block reversed-link text-sm-lg leading-tight"]').addEventListener('click', function () {
+                 gtag('event', 'conversion', { 'send_to': 'AW-17008551972/SjLBCPrT884aEKTQp64_' });
+
+                 });
+             });
+
     </script>
-    <script>
-      var booqableOptions = {
-        company: '658d12f3-3be8-4da5-abf4-d07dc5455fb6',
-      };
-    </script>
-    <!-- <script src="https://658d12f3-3be8-4da5-abf4-d07dc5455fb6.assets.booqable.com/v2/booqable.js"></script> -->
-    <!-- <script src="https://a5ed7d82-ad19-4765-b2a7-e019e4e516e4.assets.booqable.com/v2/booqable.js"></script> -->
+        <script>
+  var booqableOptions = {
+    company: '658d12f3-3be8-4da5-abf4-d07dc5455fb6'
+  };
+  
+</script>
+<!-- <script src="https://658d12f3-3be8-4da5-abf4-d07dc5455fb6.assets.booqable.com/v2/booqable.js"></script> -->
+<!-- <script src="https://a5ed7d82-ad19-4765-b2a7-e019e4e516e4.assets.booqable.com/v2/booqable.js"></script> -->
   </body>
 </html>

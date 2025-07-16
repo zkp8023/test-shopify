@@ -51,7 +51,6 @@
     },
     "header": {
       "type": "header",
-      "disabled": true,
       "custom_css": [],
       "settings": {
         "phone": "(714) 616-3266",

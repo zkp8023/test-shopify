@@ -1,0 +1,66 @@
+{%- comment -%}
+  Renders a button (or link styled as a button)
+  Accepts:
+  - label: {String} the label of the button.
+  - link: {String} an optional link to set.
+  - size: {String} can be "small", "large". If none is set, the default size is used.
+  - style: {String} "primary", "secondary" or "link". If none is set "primary" is assumed.
+  - external: {String} if set to true and that a href is passed, it opens into a new window.
+  - show_icon: {Boolean} if set to true, render a icon along the button.
+  - classes: {String} the extra classes.
+  - shopify_attributes: {String} the shopify attributes.
+{%- endcomment -%}
+
+{%- if style == 'link' -%}
+  <a class="link inline-block{% if classes != blank %} {{ classes }}{% endif %}{% if show_icon %} icon-with-text{% endif %}"
+    {% if link != blank %} href="{{ link }}"{% if external %} target="_blank" rel="noopener"{% endif %}{% else %} role="link" aria-disabled="true"{% endif %}
+    is="hover-link" {{ shopify_attributes }}
+    {% if link contains '#' and link != '#' %} data-smooth-scroll{% endif %}
+  >
+    <span class="link-text">{{ label | escape }}</span>
+    {%- if show_icon -%}
+      {% render 'icon', icon: 'arrow-right', size: 'sm', class: 'transform' %}
+    {%- endif -%}
+  </a>
+{%- else -%}
+  <a class="button button--{{ style | default: 'primary' }} button--{{ size | default: 'md' }}{% if classes != blank %} {{ classes }}{% endif %}{% if show_icon %} icon-with-text{% endif %}"
+    {% if link != blank %} href="{{ link }}"{% if external %} target="_blank" rel="noopener"{% endif %}{% else %} role="link" aria-disabled="true"{% endif %}
+    is="hover-link" {{ shopify_attributes }}
+    {% if link contains '#' and link != '#' %} data-smooth-scroll{% endif %}
+  >
+    <span class="btn-fill" data-fill></span>
+    <span class="btn-text">
+      {{ label | escape }}
+      {%- if show_icon -%}
+        {% render 'icon', icon: 'arrow-right', size: 'sm', class: 'transform' %}
+      {%- endif -%}
+    </span>
+  </a>
+{%- endif -%}
+
+{%- if link contains '#' and link != '#' -%}
+<script>
+  (function () {
+    // 确保DOM已加载
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', initSmoothScroll);
+    } else {
+      initSmoothScroll();
+    }
+    const linktext = {{link | json}}
+    function initSmoothScroll() {
+      const button = document.querySelector('[href="{{ link }}"]');
+      if (!button) return;
+      button.addEventListener('click', function (e) {
+        // 只处理锚点链接
+        if (this.hasAttribute('data-smooth-scroll') && linktext) {
+          e.preventDefault();
+          $('html, body').animate({
+            scrollTop: $(linktext).offset().top
+          }, 600);
+        }
+      })
+    }
+  })();
+</script>
+{%- endif -%}

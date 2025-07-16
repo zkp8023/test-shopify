@@ -1,0 +1,157 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main-page": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "heading_size": "title-md",
+        "heading_alignment": "text-left",
+        "heading_tag": "h5",
+        "text_size": "text-base",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "narrow": true,
+        "rounded": false
+      }
+    },
+    "rich_text_VxyYyD": {
+      "type": "rich-text",
+      "blocks": {
+        "button_AzAHqD": {
+          "type": "button",
+          "settings": {
+            "button_label": "Book Now",
+            "button_link": "shopify://pages/rentall-page",
+            "button_style": "primary",
+            "button_size": "sm",
+            "button_external": false,
+            "button_icon": true
+          }
+        },
+        "heading_BPwYWC": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Our Pickup Locations：</strong>",
+            "heading_size": "title-sm",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "progus_store_locator_app_block_zWFPwb": {
+          "type": "shopify://apps/progus-store-locator/blocks/app-block/d7896016-8cc9-45e0-860e-ba85ba3d5be4",
+          "settings": {}
+        },
+        "button_xgRF3a": {
+          "type": "button",
+          "settings": {
+            "button_label": "Book Now",
+            "button_link": "shopify://pages/rentall-page",
+            "button_style": "primary",
+            "button_size": "sm",
+            "button_external": false,
+            "button_icon": true
+          }
+        },
+        "heading_AXtr69": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Full List of Our Locations:</strong>",
+            "heading_size": "title-sm",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "image_THExV9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Moooov_scooter_rental_Full_List_of_Locations.png",
+            "image_width": "full_width",
+            "image_max_width": 20,
+            "image_max_width_mobile": 20
+          }
+        },
+        "button_Y4pmt7": {
+          "type": "button",
+          "settings": {
+            "button_label": "Book Now",
+            "button_link": "shopify://pages/rentall-page",
+            "button_style": "primary",
+            "button_size": "sm",
+            "button_external": false,
+            "button_icon": true
+          }
+        },
+        "text_LVWC4j": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p><strong>#001</strong> 5250 W Century Blvd Suite 207, Los Angeles, CA 90045</p><p><strong>#002</strong> 909 S Harbor Blvd, Anaheim, CA 92805</p><p><strong>#003</strong> 10635 Burbank blvd, North Hollywood, CA 91601</p><p><strong>#004</strong> 1441 Highland Ave, Los Angeles, CA 90028</p><p><strong>#005</strong> 2187 Pacific Ave, Long Beach, CA 90806</p><p><strong>#006</strong> 9896 Katella Ave suite # A, Anaheim, CA 92804</p><p><strong>#007</strong> 860 E Carson St Unit 114, Carson, CA 90745</p><p><strong>#008</strong> 421 S Brookhurst St, Anaheim, CA 92804</p><p><strong>#009</strong> 1761 S Harbor Blvd, Anaheim, CA 92802#010 1500 S Euclid St, Anaheim, CA 92802</p>",
+            "text_size": "subtext-sm",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "button_AzAHqD",
+        "heading_BPwYWC",
+        "progus_store_locator_app_block_zWFPwb",
+        "button_xgRF3a",
+        "heading_AXtr69",
+        "image_THExV9",
+        "button_Y4pmt7",
+        "text_LVWC4j"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "text_alignment": "left",
+        "text_alignment_mobile": "left",
+        "heading": "",
+        "heading_size": "title-md",
+        "heading_alignment": "text-left md:items-end md:flex-row",
+        "heading_width": "small",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "divider": false,
+        "narrow": true,
+        "rounded": false
+      }
+    }
+  },
+  "order": [
+    "main-page",
+    "rich_text_VxyYyD"
+  ]
+}
