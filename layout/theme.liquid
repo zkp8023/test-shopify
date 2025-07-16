@@ -1,0 +1,189 @@
+{%- capture direction -%}{% render 'direction' %}{%- endcapture -%}
+<!doctype html>
+<html class="no-js" lang="{{ request.locale.iso_code }}" dir="{{ direction }}">
+  <head>
+    <script
+      nowprocket
+      nitro-exclude
+      type="text/javascript"
+      id="sa-dynamic-optimization"
+      data-uuid="0ddaae23-c280-4642-bef4-304ffc97d32c"
+      src="data:text/javascript;base64,dmFyIHNjcmlwdCA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoInNjcmlwdCIpO3NjcmlwdC5zZXRBdHRyaWJ1dGUoIm5vd3Byb2NrZXQiLCAiIik7c2NyaXB0LnNldEF0dHJpYnV0ZSgibml0cm8tZXhjbHVkZSIsICIiKTtzY3JpcHQuc3JjID0gImh0dHBzOi8vZGFzaGJvYXJkLnNlYXJjaGF0bGFzLmNvbS9zY3JpcHRzL2R5bmFtaWNfb3B0aW1pemF0aW9uLmpzIjtzY3JpcHQuZGF0YXNldC51dWlkID0gIjBkZGFhZTIzLWMyODAtNDY0Mi1iZWY0LTMwNGZmYzk3ZDMyYyI7c2NyaXB0LmlkID0gInNhLWR5bmFtaWMtb3B0aW1pemF0aW9uLWxvYWRlciI7ZG9jdW1lbnQuaGVhZC5hcHBlbmRDaGlsZChzY3JpcHQpOw=="
+    ></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16939203417"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'AW-16939203417');
+    </script>
+    <script>
+      gtag('config', 'AW-16939203417/sRLPCOWfqa8aENn2no0_', {
+        'phone_conversion_number': '（888）5203590'
+      });
+    </script>
+
+    <meta name="google-site-verification" content="w9-v-FHI4nLUcG3Pf2m7Fh72Q8l6xtn6krb9f6KpGFo">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="theme-color" content="{{ settings.color_button_background }}">
+    <link rel="canonical" href="{{ canonical_url }}">
+    <link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin>
+    {% # theme-check-disable RemoteAsset %}
+    <link rel="dns-prefetch" href="https://ajax.googleapis.com">
+    <link rel="dns-prefetch" href="https://maps.googleapis.com">
+    <link rel="dns-prefetch" href="https://maps.gstatic.com">
+    {% # theme-check-enable RemoteAsset %}
+
+    {%- if settings.favicon != blank -%}
+      <link rel="shortcut icon" href="{{ settings.favicon | image_url: width: 32, height: 32 }}" type="image/png">
+    {%- endif -%}
+
+    <title>
+      {{- page_title -}}
+      {%- if current_tags -%}
+        {%- assign meta_tags = current_tags | join: ', ' %} &ndash; {{ 'general.meta.tags' | t: tags: meta_tags -}}
+      {%- endif -%}
+      {%- if current_page != 1 %} &ndash; {{ 'general.meta.page' | t: page: current_page }}{% endif -%}
+      {%- if request.page_type == 'password' -%}
+        {{- shop.name -}}
+      {%- else -%}
+        {%- unless page_title contains shop.name %} &ndash; {{ shop.name }}{% endunless -%}
+      {%- endif -%}
+    </title>
+
+    {%- if page_description -%}
+      <meta name="description" content="{{ page_description | escape }}">
+    {%- endif -%}
+
+    {%- liquid
+      render 'social-meta-tags'
+
+      render 'css-variables'
+      echo 'theme.css' | asset_url | stylesheet_tag: preload: true
+
+      if direction == 'rtl'
+        echo 'rtl.css' | asset_url | stylesheet_tag: preload: true
+      endif
+    -%}
+
+    <link
+      rel="stylesheet"
+      href="{{ 'apps.css' | asset_url }}"
+      media="print"
+      fetchpriority="low"
+      onload="this.media='all'"
+    >
+
+    {{ content_for_header }}
+
+    <script src="{{ 'vendor.js' | asset_url }}" defer="defer"></script>
+    <script src="{{ 'theme.js' | asset_url }}" defer="defer"></script>
+    <script src="{{ 'track.js' | asset_url }}" defer="defer"></script>
+
+    {%- if settings.enable_tab_attention -%}
+      <script src="{{ 'tab-attention.js' | asset_url }}" defer="defer"></script>
+    {%- endif -%}
+
+    {%- if request.page_type contains 'customers/' -%}
+      <script src="{{ 'shopify_common.js' | shopify_asset_url }}" defer="defer"></script>
+    {%- endif -%}
+
+    {%- render 'js-variables' -%}
+    <script src="https://unpkg.com/jquery@3.7.1/dist/jquery.js" defer></script>
+  </head>
+
+  <body
+    class="template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}{% if request.path == '/challenge' %} template-challange{% endif %}{% if request.design_mode %} shopify-design-mode{% endif %}"
+    data-rounded-button="{{ settings.rounded_button }}"
+    data-rounded-input="{{ settings.rounded_input }}"
+    data-rounded-block="{{ settings.rounded_block }}"
+    data-rounded-card="{{ settings.rounded_card }}"
+    data-button-hover="{{ settings.buttons_hover }}"
+    {% if settings.enable_lazy_image %}
+      data-lazy-image
+    {% endif %}
+    data-title-animation
+    data-page-rendering
+  >
+    <a class="sr-only skip-link" href="#MainContent">{{ 'general.accessibility.skip_to_content' | t }}</a>
+    {%- liquid
+      if settings.enable_page_transition
+        render 'loading-bar'
+      endif
+
+      render 'mouse-cursor'
+
+      sections 'header-group'
+      sections 'overlay-group'
+    -%}
+
+    <div class="page-container" id="PageContainer">
+      <main class="main-content relative" id="MainContent" role="main">
+        {{ content_for_layout }}
+      </main>
+
+      <footer-group class="footer-group block w-full">
+        {%- sections 'footer-group' -%}
+      </footer-group>
+    </div>
+
+    <ul hidden>
+      <li id="a11y-refresh-page-message">{{ 'general.accessibility.refresh_page' | t }}</li>
+      <li id="a11y-new-window-message">{{ 'general.accessibility.link_messages.new_window' | t }}</li>
+    </ul>
+
+    {%- if request.design_mode == false and settings.preload_links -%}
+      <script src="{{ 'instant-page.js' | asset_url }}" type="module" fetchpriority="low" defer="defer"></script>
+    {%- endif -%}
+    <script>
+      var booqableOptions = {
+        company: '658d12f3-3be8-4da5-abf4-d07dc5455fb6'
+      };
+       window.addEventListener('DOMContentLoaded', () => {
+        const track = new TracerPage()
+        track.trackPageVisit({{request.page_type | json}})
+      })
+    </script>
+    <!-- <script src="https://658d12f3-3be8-4da5-abf4-d07dc5455fb6.assets.booqable.com/v2/booqable.js"></script> -->
+    <script>
+         window.addEventListener('load', function (event) {
+             document.querySelector('[class="rs-btn rs-btn-default vehicle-search-button"]').addEventListener('click', function () {
+                 gtag('event', 'conversion', { 'send_to': 'AW-17008551972/MlOICLfa580aEKTQp64_' });
+
+                 });
+             });
+      window.addEventListener('load', function (event) {
+             document.querySelector('[class="button button--primary button--sm button--fixed"]').addEventListener('click', function () {
+                 gtag('event', 'conversion', { 'send_to': 'AW-17008551972/uoe0COCU9s4aEKTQp64_' });
+
+                 });
+             });
+        window.addEventListener('load', function (event) {
+             document.querySelector('[class="header--phone hidden lg:flex button w-auto button--md hidden lg:flex items-center justify-center"]').addEventListener('click', function () {
+                 gtag('event', 'conversion', { 'send_to': 'AW-17008551972/SjLBCPrT884aEKTQp64_' });
+
+                 });
+             });
+            window.addEventListener('load', function (event) {
+             document.querySelector('[class="block reversed-link text-sm-lg leading-tight"]').addEventListener('click', function () {
+                 gtag('event', 'conversion', { 'send_to': 'AW-17008551972/SjLBCPrT884aEKTQp64_' });
+
+                 });
+             });
+
+    </script>
+        <script>
+  var booqableOptions = {
+    company: '658d12f3-3be8-4da5-abf4-d07dc5455fb6'
+  };
+  
+</script>
+<!-- <script src="https://658d12f3-3be8-4da5-abf4-d07dc5455fb6.assets.booqable.com/v2/booqable.js"></script> -->
+<!-- <script src="https://a5ed7d82-ad19-4765-b2a7-e019e4e516e4.assets.booqable.com/v2/booqable.js"></script> -->
+  </body>
+</html>

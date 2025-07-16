@@ -1,0 +1,46 @@
+{%- comment %}
+  图片配置组件 (Flex 布局版本)
+  参数说明:
+  - image: 图片对象 (必需)
+  - desktop_width: PC端宽度 (默认 '100%')
+  - desktop_height: PC端高度 (默认 'auto')
+  - mobile_width: 移动端宽度 (默认 desktop_width)
+  - mobile_height: 移动端高度 (默认 desktop_height)
+  - alignment: Flex 对齐方式 (center/start/end, 默认 'center')
+  - lazy_loading: 是否懒加载 (true/false, 默认 true)
+  - class: 自定义class (可选)
+{% endcomment -%}
+
+{%- liquid
+  # 默认值设置
+  assign desktop_width = desktop_width | default: '100%'
+  assign desktop_height = desktop_height | default: 'auto'
+  assign mobile_width = mobile_width | default: desktop_width
+  assign mobile_height = mobile_height | default: desktop_height
+  assign lazy_loading = lazy_loading | default: true
+  assign custom_class = class | default: ''
+  assign flex_alignment = alignment | default :'center'
+-%}
+
+<div class="flex-image-container {{ custom_class }}" {{  shopify_attributes  }}>
+  {{- image | image_url: width: desktop_width,height:desktop_height  | image_tag:lazy_loading:lazy_loading, class:'custom_image' -}}
+</div>
+
+<style>
+  .flex-image-container {
+    width: 100%;
+    display:flex;
+    justify-content: {{ flex_alignment }};
+  }
+  .custom_image{
+    width:{{desktop_width}};
+    height:{{desktop_height}};
+  }
+  
+  @media screen and (max-width: 749px) {
+    .custom_image {
+      width: {{ mobile_width }} !important;
+      height: {{ mobile_height }} !important;
+    }
+  }
+</style>

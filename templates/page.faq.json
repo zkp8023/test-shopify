@@ -1,0 +1,260 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "heading_size": "title-lg tracking-heading",
+        "heading_alignment": "text-left",
+        "heading_tag": "h1",
+        "text_size": "text-base",
+        "padding_top": 72,
+        "padding_bottom": 120,
+        "divider": false,
+        "narrow": true,
+        "rounded": false
+      }
+    },
+    "faq": {
+      "type": "faq",
+      "blocks": {
+        "rich-text-1": {
+          "type": "rich-text",
+          "settings": {
+            "heading": "General Questions",
+            "text": "<p>Below are some common questions.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "question-1": {
+          "type": "question",
+          "settings": {
+            "title": "What types of vehicles do you offer for rent?",
+            "text": "<p>We offer a range of mobility solutions, including lightweight mobility scooters, wheelchairs, and other assistive vehicles designed for different needs and preferences.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "question-2": {
+          "type": "question",
+          "settings": {
+            "title": "Who can rent from Hi-PEV?",
+            "text": "<p>Our vehicles are available for anyone seeking convenient, affordable mobility solutions, whether for a short-term need or anextended period.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "question-4": {
+          "type": "question",
+          "settings": {
+            "title": "Do you have an age requirement for rentals?",
+            "text": "<p>Yes, renters must be at least 18 years old and present a valid lD at the time of rental</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "rich-text-2": {
+          "type": "rich-text",
+          "settings": {
+            "heading": "Booking and Payment",
+            "text": "<p>Below are some of are common questions about booking and payment</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "question-6": {
+          "type": "question",
+          "settings": {
+            "title": "How do l book a vehicle?",
+            "text": "<p>You can book online through our rental page. just select the type of vehicle, rental duraion, and pickup time that works best foryou.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "question-7": {
+          "type": "question",
+          "settings": {
+            "title": "Can l change or cancel my reservation?",
+            "text": "<p>Yes, you can modify or cancel your reservation, though we recommend doing so at least 24 hours in advance to avoid any fees.<br/>Please see our cancellation policy for more details.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "question-8": {
+          "type": "question",
+          "settings": {
+            "title": "What forms of payment do you accept?",
+            "text": "<p>We accept major credit cards, debit cards, and online payments through our website</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "rich-text-3": {
+          "type": "rich-text",
+          "settings": {
+            "heading": "Using Our Vehicles",
+            "text": "<p>Below are some common questions about our products</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "question-10": {
+          "type": "question",
+          "settings": {
+            "title": "Will l receive instructions on how to use the vehicle?",
+            "text": "<p>Absolutely! We provide brief, hands-on instruction at pickup, and you can also watch our instructional videos on our <a href=\"/pages/product-instruction-video\" title=\"Product Instruction Video\"><strong>Product Instruction Video</strong></a> page for detailed guidance on operating each type of vehicle.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "question-11": {
+          "type": "question",
+          "settings": {
+            "title": "Are your vehicles lightweight and easy to handle?",
+            "text": "<p>Yes, our vehicles are designed to be user-friendly, lightweight, and easy to maneuver, perfect for a variety of mobility needs</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "rich_text_yHgcg8": {
+          "type": "rich-text",
+          "settings": {
+            "heading": "Pickup and Return",
+            "text": "<p>Below are some common questions about pick up and return.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "question_GK8Qtq": {
+          "type": "question",
+          "settings": {
+            "title": "Where do l pick up and return the vehicle?",
+            "text": "<p>All rentals are picked up and returned to our designated location. Our team will provide exact directions and ensure the pickup process is seamless.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "question_DNnYdN": {
+          "type": "question",
+          "settings": {
+            "title": "What should l do if l need to extend my rental?",
+            "text": "<p>Contact us as soon as possible, and we'l do our best to accommodate extensions based on availability.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "question_nQHPD7": {
+          "type": "question",
+          "settings": {
+            "title": "What if l return the vehicle late?",
+            "text": "<p>Late returns may incur an additional fee. Please notify us if you’re running late to avoid any inconvenience.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "rich_text_WAPDC4": {
+          "type": "rich-text",
+          "settings": {
+            "heading": "Maintenance and Support",
+            "text": "<p>Below are some common questions about maintenance and support.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "question_4yBjRK": {
+          "type": "question",
+          "settings": {
+            "title": "Are the vehicles inspected for safety?",
+            "text": "<p>Yes, each vehicle undergoes thorough maintenance and safety checks before every rental to ensure a reliable and safe<br/>experience.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "question_nqxrpU": {
+          "type": "question",
+          "settings": {
+            "title": "How can l get help with the vehicle if l have issues?",
+            "text": "<p>Our customer support team is available by phone and email to assist with any questions or concerns you may have during your rental.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "contact": {
+          "type": "contact",
+          "settings": {
+            "heading": "Didn’t find your answer?",
+            "text": "<p>Don't hestitate to contact us</p>",
+            "show_phone": false,
+            "avatar_height": 60,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "rich-text-1",
+        "question-1",
+        "question-2",
+        "question-4",
+        "rich-text-2",
+        "question-6",
+        "question-7",
+        "question-8",
+        "rich-text-3",
+        "question-10",
+        "question-11",
+        "rich_text_yHgcg8",
+        "question_GK8Qtq",
+        "question_DNnYdN",
+        "question_nQHPD7",
+        "rich_text_WAPDC4",
+        "question_4yBjRK",
+        "question_nqxrpU",
+        "contact"
+      ],
+      "settings": {
+        "style": "with-border",
+        "heading": "",
+        "heading_size": "title-md",
+        "heading_alignment": "text-left md:items-end md:flex-row",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "color_overlay": "#ffffff",
+        "overlay_opacity": 4,
+        "padding_top": 0,
+        "padding_bottom": 120,
+        "divider": false,
+        "narrow": false,
+        "rounded": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "faq"
+  ]
+}

@@ -1,0 +1,526 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "heading_size": "title-md",
+        "heading_alignment": "text-left",
+        "heading_tag": "h1",
+        "text_size": "text-lg md:text-2xl",
+        "padding_top": 72,
+        "padding_bottom": 0,
+        "divider": false,
+        "narrow": false,
+        "rounded": false
+      }
+    },
+    "featured_collection_KEdCyD": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "",
+        "products": "{{ page.metafields.custom.localproduct.value }}",
+        "product_limit": 6,
+        "columns": 4,
+        "carousel_on_desktop": true,
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "heading": "Choose The Right One For You",
+        "heading_size": "title-md",
+        "heading_alignment": "text-center md:items-center",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 44,
+        "padding_bottom": 32,
+        "divider": false,
+        "full_width": false,
+        "rounded": false
+      }
+    },
+    "slideshow_Yjwya8": {
+      "type": "slideshow",
+      "blocks": {
+        "image_6ANwfC": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "heading_size": "title-lg tracking-heading",
+            "heading_tag": "h2",
+            "heading_align": "left",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "button_external": false,
+            "button_icon": false,
+            "button_label2": "",
+            "button_link2": "",
+            "button_style2": "primary",
+            "button_external2": false,
+            "button_icon2": false
+          }
+        },
+        "image_cfGzra": {
+          "type": "image",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "title-lg tracking-heading",
+            "heading_tag": "h2",
+            "heading_align": "left",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "button_external": false,
+            "button_icon": false,
+            "button_label2": "",
+            "button_link2": "",
+            "button_style2": "primary",
+            "button_external2": false,
+            "button_icon2": false
+          }
+        },
+        "image_yk6HXx": {
+          "type": "image",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "title-lg tracking-heading",
+            "heading_tag": "h2",
+            "heading_align": "left",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "button_external": false,
+            "button_icon": false,
+            "button_label2": "",
+            "button_link2": "",
+            "button_style2": "primary",
+            "button_external2": false,
+            "button_icon2": false
+          }
+        },
+        "image_W8razw": {
+          "type": "image",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "title-lg tracking-heading",
+            "heading_tag": "h2",
+            "heading_align": "left",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "button_external": false,
+            "button_icon": false,
+            "button_label2": "",
+            "button_link2": "",
+            "button_style2": "primary",
+            "button_external2": false,
+            "button_icon2": false
+          }
+        },
+        "image_keQh6r": {
+          "type": "image",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "title-lg tracking-heading",
+            "heading_tag": "h2",
+            "heading_align": "left",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "button_external": false,
+            "button_icon": false,
+            "button_label2": "",
+            "button_link2": "",
+            "button_style2": "primary",
+            "button_external2": false,
+            "button_icon2": false
+          }
+        }
+      },
+      "block_order": [
+        "image_6ANwfC",
+        "image_cfGzra",
+        "image_yk6HXx",
+        "image_W8razw",
+        "image_keQh6r"
+      ],
+      "disabled": true,
+      "settings": {
+        "autoplay": false,
+        "autoplay_speed": 5,
+        "show_navigation": true,
+        "image_height": "650px",
+        "content_width": "small",
+        "image_height_mobile": "auto",
+        "color_text": "#ffffff",
+        "color_background": "#ffffff",
+        "gradient_background": "",
+        "color_button_text": "#171717",
+        "color_button_background": "#ffffff",
+        "color_button_gradient": "",
+        "color_overlay": "#171717",
+        "overlay_opacity": 20,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "divider": false,
+        "full_width": true,
+        "rounded": false,
+        "enable_parallax": false,
+        "parallax_direction": "vertical"
+      }
+    },
+    "multicolumn_ayRnhR": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_6zJijt": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "image": "shopify://shop_images/cart.svg",
+            "image_ratio": "adapt",
+            "heading": "Add all the rental equipment to your shopping cart",
+            "heading_size": "text-lg-2xl",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_cwRKkM": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "image": "shopify://shop_images/delivery_service_form.svg",
+            "image_ratio": "adapt",
+            "heading": "Fill out the checkout form with rental dates and Albany delivery location",
+            "heading_size": "text-lg-2xl",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_b6aWb7": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "image": "shopify://shop_images/credit_card.svg",
+            "image_ratio": "adapt",
+            "heading": "Make the payment online to confirm your  rental reservation",
+            "heading_size": "text-lg-2xl",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_N7t9Bx": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "image": "shopify://shop_images/house_line.svg",
+            "image_ratio": "adapt",
+            "heading": "Navigating to {{ page.metafields.custom.googlemap.value }}, show your ID number and order number.",
+            "heading_size": "text-lg-2xl",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "column_6zJijt",
+        "column_cwRKkM",
+        "column_b6aWb7",
+        "column_N7t9Bx"
+      ],
+      "settings": {
+        "gap": "large",
+        "columns": 4,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "heading": "How to Rent Scooter & Wheelchair",
+        "heading_size": "title-md",
+        "heading_alignment": "text-center md:items-center",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 32,
+        "padding_bottom": 32,
+        "divider": false,
+        "full_width": false,
+        "rounded": false
+      }
+    },
+    "174848958983eedab9": {
+      "type": "apps",
+      "blocks": {
+        "progus_store_locator_app_block_xmY8Ma": {
+          "type": "shopify://apps/progus-store-locator/blocks/app-block/d7896016-8cc9-45e0-860e-ba85ba3d5be4",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "progus_store_locator_app_block_xmY8Ma"
+      ],
+      "settings": {
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 100,
+        "padding_bottom": 100,
+        "divider": false,
+        "full_width": false,
+        "rounded": false
+      }
+    },
+    "map": {
+      "type": "map",
+      "blocks": {
+        "subheading_EfjTh7": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Store Name",
+            "subheading_size": "text-xs",
+            "secondary_color": true
+          }
+        },
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ page.metafields.custom.storename.value }}",
+            "heading_size": "text-2xl lg:text-3xl",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Address",
+            "subheading_size": "text-xs",
+            "secondary_color": true
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ page.metafields.custom.googlemap.value }}</p>",
+            "text_size": "subtext-sm",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "subheading-2": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Opening hours",
+            "subheading_size": "text-xs",
+            "secondary_color": true
+          }
+        },
+        "liquid": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<table>\n  <tr>\n    <td>Mon - Sun</td>\n    <td>9:00am - 5:00pm PST</td>\n  </tr>\n</table>",
+            "text_size": "subtext-sm"
+          }
+        },
+        "button_UrxeAM": {
+          "type": "button",
+          "settings": {
+            "button_label": "See in Google Map",
+            "button_link": "{{ page.metafields.custom.location_in_map.value }}",
+            "button_style": "primary",
+            "button_size": "md",
+            "button_external": true,
+            "button_icon": true
+          }
+        }
+      },
+      "block_order": [
+        "subheading_EfjTh7",
+        "heading",
+        "subheading-1",
+        "text",
+        "subheading-2",
+        "liquid",
+        "button_UrxeAM"
+      ],
+      "disabled": true,
+      "settings": {
+        "transparent_header": false,
+        "map_address": "{{ page.metafields.custom.googlemap.value }}",
+        "map_api_key": "AIzaSyDeL9K9zeTiLzTGSwyAygnNY0PlJS3LZuM",
+        "map_zoom": 16,
+        "map_style": "standard",
+        "image_height": "650px",
+        "content_position": "md:items-center md:justify-end",
+        "text_alignment": "left",
+        "content_position_mobile": "image_first",
+        "image_height_mobile": "400px",
+        "text_alignment_mobile": "left",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "#a3a3a3",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "divider": false,
+        "full_width": true,
+        "rounded": true,
+        "enable_parallax": false,
+        "parallax_direction": "vertical"
+      }
+    },
+    "faq_pwPqQf": {
+      "type": "faq",
+      "blocks": {
+        "question_LxTaex": {
+          "type": "question",
+          "settings": {
+            "title": "Frequently asked question",
+            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "question_TphY7G": {
+          "type": "question",
+          "settings": {
+            "title": "Frequently asked question",
+            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "question_AiAMHp": {
+          "type": "question",
+          "settings": {
+            "title": "Frequently asked question",
+            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "question_LxTaex",
+        "question_TphY7G",
+        "question_AiAMHp"
+      ],
+      "disabled": true,
+      "settings": {
+        "style": "with-border",
+        "heading": "Frequently asked questions by Moooov rental customers",
+        "heading_size": "title-md",
+        "heading_alignment": "text-left md:items-end md:flex-row",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "color_overlay": "#ffffff",
+        "overlay_opacity": 4,
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "narrow": true,
+        "rounded": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "featured_collection_KEdCyD",
+    "slideshow_Yjwya8",
+    "multicolumn_ayRnhR",
+    "174848958983eedab9",
+    "map",
+    "faq_pwPqQf"
+  ]
+}

@@ -1,0 +1,1093 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_9Uzy3z": {
+      "type": "slideshow",
+      "blocks": {
+        "image_B8UqeG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/scooter_rental.jpg",
+            "image_mobile": "shopify://shop_images/scooter_rental.jpg",
+            "heading": "<strong>Easy Rentals, Unbeatable Prices</strong>",
+            "heading_size": "title-md",
+            "heading_tag": "h4",
+            "heading_align": "center",
+            "button_label": "Check Prices",
+            "button_link": "",
+            "button_anchor": "#demo_test",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": false,
+            "button_label2": "",
+            "button_link2": "shopify://pages/airport",
+            "button_anchor2": "",
+            "button_style2": "secondary",
+            "button_external2": false,
+            "button_icon2": false
+          }
+        },
+        "image_mrMf8i": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Foldable_mobility_scooter.jpg",
+            "image_mobile": "shopify://shop_images/Foldable_mobility_scooter.jpg",
+            "heading": "<strong>Fold it. Pack it. Ride anywhere</strong>",
+            "heading_size": "title-md",
+            "heading_tag": "h3",
+            "heading_align": "center",
+            "button_label": "",
+            "button_link": "",
+            "button_anchor": "",
+            "button_style": "primary",
+            "button_external": false,
+            "button_icon": true,
+            "button_label2": "",
+            "button_link2": "",
+            "button_anchor2": "",
+            "button_style2": "secondary",
+            "button_external2": false,
+            "button_icon2": false
+          }
+        }
+      },
+      "block_order": [
+        "image_B8UqeG",
+        "image_mrMf8i"
+      ],
+      "custom_css": [
+        ".button_link2,.button_link {padding: 0.5rem 2rem;}"
+      ],
+      "name": "t:sections.slideshow.presets.name",
+      "settings": {
+        "autoplay": false,
+        "autoplay_speed": 3,
+        "show_navigation": false,
+        "image_height": "650px",
+        "content_width": "small",
+        "image_height_mobile": "200px",
+        "color_text": "#ffffff",
+        "color_background": "#ffffff",
+        "gradient_background": "",
+        "color_button_text": "#ffffff",
+        "color_button_background": "#00b644",
+        "color_button_gradient": "",
+        "color_overlay": "#ffffff",
+        "overlay_opacity": 0,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "divider": false,
+        "full_width": false,
+        "rounded": false,
+        "enable_parallax": false,
+        "parallax_direction": "vertical"
+      }
+    },
+    "featured_collections_qknbP7": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_XhGyVA": {
+          "type": "collection",
+          "settings": {
+            "collection": "products-for-pickup",
+            "products": [],
+            "title": "Self Pickup",
+            "custom_collection_title": "Available For Self Pickup",
+            "custom_collection_title_size": 1.4,
+            "custom_collection_title_color": "#171717",
+            "custom_link_label": "Book Now →",
+            "custom_link_color": "#00b644",
+            "custom_link_size": 1.2,
+            "custom_link": "https://www.moooov.us/pages/rentall-page",
+            "linkage_section_id": "template--16425185869879__slideshow_aQg4GG"
+          }
+        },
+        "collection_8Ea9Xg": {
+          "type": "collection",
+          "settings": {
+            "collection": "products-for-delivery",
+            "products": [],
+            "title": "Delivery",
+            "custom_collection_title": "Available For Delivery",
+            "custom_collection_title_size": 1.4,
+            "custom_collection_title_color": "#171717",
+            "custom_link_label": "Delivery Request →",
+            "custom_link_color": "#00b644",
+            "custom_link_size": 1.2,
+            "custom_link": "https://www.moooov.us/pages/delivery",
+            "linkage_section_id": "template--16425185869879__slideshow_rMpwLb"
+          }
+        }
+      },
+      "block_order": [
+        "collection_XhGyVA",
+        "collection_8Ea9Xg"
+      ],
+      "name": "t:sections.featured-collections.presets.name",
+      "settings": {
+        "product_limit": 6,
+        "columns": 4,
+        "carousel_on_desktop": true,
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "heading": "",
+        "heading_size": "title-sm",
+        "heading_alignment": "text-left md:items-end md:flex-row",
+        "heading_tag": "h3",
+        "subheading": "",
+        "description": "",
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 32,
+        "padding_bottom": 28,
+        "divider": false,
+        "full_width": false,
+        "rounded": false,
+        "button_text": "Rent It Now",
+        "button_style": "secondary",
+        "button_text_size": 1,
+        "bg_color": "",
+        "text_color": "#00b644",
+        "vertical_position": "custom",
+        "custom_vertical": 90,
+        "horizontal_position": "center",
+        "custom_horizontal": 95,
+        "padding_vertical": 10,
+        "padding_horizontal": 15
+      }
+    },
+    "custom_liquid_awBNLL": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "liquid": "<div id=\"demo_test\" style=\"color:transparent;height:0px;\">__</div>",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "divider": false,
+        "narrow": false,
+        "rounded": false
+      }
+    },
+    "slideshow_aQg4GG": {
+      "type": "slideshow",
+      "blocks": {
+        "image_mPWx6p": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/white_blank.png",
+            "image_mobile": "shopify://shop_images/Frame_8.png",
+            "heading": "",
+            "heading_size": "title-lg tracking-heading",
+            "heading_tag": "h2",
+            "heading_align": "left",
+            "button_label": "",
+            "button_link": "",
+            "button_anchor": "",
+            "button_style": "primary",
+            "button_external": false,
+            "button_icon": false,
+            "button_label2": "",
+            "button_link2": "",
+            "button_anchor2": "",
+            "button_style2": "primary",
+            "button_external2": false,
+            "button_icon2": false
+          }
+        }
+      },
+      "block_order": [
+        "image_mPWx6p"
+      ],
+      "name": "t:sections.slideshow.presets.name",
+      "settings": {
+        "autoplay": false,
+        "autoplay_speed": 5,
+        "show_navigation": true,
+        "image_height": "adapt",
+        "content_width": "small",
+        "image_height_mobile": "adapt",
+        "color_text": "#ffffff",
+        "color_background": "#ffffff",
+        "gradient_background": "",
+        "color_button_text": "#ffffff",
+        "color_button_background": "#ffffff",
+        "color_button_gradient": "",
+        "color_overlay": "#ffffff",
+        "overlay_opacity": 0,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "divider": false,
+        "full_width": true,
+        "rounded": false,
+        "enable_parallax": false,
+        "parallax_direction": "vertical"
+      }
+    },
+    "slideshow_rMpwLb": {
+      "type": "slideshow",
+      "blocks": {
+        "image_rVQbzD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/white_blank.png",
+            "image_mobile": "shopify://shop_images/Frame_9.png",
+            "heading": "",
+            "heading_size": "title-lg tracking-heading",
+            "heading_tag": "h2",
+            "heading_align": "left",
+            "button_label": "",
+            "button_link": "",
+            "button_anchor": "",
+            "button_style": "primary",
+            "button_external": false,
+            "button_icon": false,
+            "button_label2": "",
+            "button_link2": "",
+            "button_anchor2": "",
+            "button_style2": "primary",
+            "button_external2": false,
+            "button_icon2": false
+          }
+        },
+        "image_JXeUDw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/white_blank.png",
+            "image_mobile": "shopify://shop_images/scooter_rental_location_price.png",
+            "heading": "",
+            "heading_size": "title-lg tracking-heading",
+            "heading_tag": "h2",
+            "heading_align": "left",
+            "button_label": "",
+            "button_link": "",
+            "button_anchor": "",
+            "button_style": "primary",
+            "button_external": false,
+            "button_icon": false,
+            "button_label2": "",
+            "button_link2": "",
+            "button_anchor2": "",
+            "button_style2": "primary",
+            "button_external2": false,
+            "button_icon2": false
+          }
+        }
+      },
+      "block_order": [
+        "image_rVQbzD",
+        "image_JXeUDw"
+      ],
+      "name": "t:sections.slideshow.presets.name",
+      "settings": {
+        "autoplay": false,
+        "autoplay_speed": 5,
+        "show_navigation": true,
+        "image_height": "adapt",
+        "content_width": "small",
+        "image_height_mobile": "adapt",
+        "color_text": "#ffffff",
+        "color_background": "#ffffff",
+        "gradient_background": "",
+        "color_button_text": "#ffffff",
+        "color_button_background": "#ffffff",
+        "color_button_gradient": "",
+        "color_overlay": "#ffffff",
+        "overlay_opacity": 0,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "divider": false,
+        "full_width": true,
+        "rounded": false,
+        "enable_parallax": false,
+        "parallax_direction": "vertical"
+      }
+    },
+    "slideshow_xMz9cH": {
+      "type": "slideshow",
+      "blocks": {
+        "image_TKyH8P": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/scooter_rental_price_PC_7123aa1a-d6ce-4789-93ee-1ce5db0091ef.png",
+            "image_mobile": "shopify://shop_images/white_blank.png",
+            "heading": "",
+            "heading_size": "title-md",
+            "heading_tag": "h2",
+            "heading_align": "left",
+            "button_label": "",
+            "button_link": "",
+            "button_anchor": "",
+            "button_style": "primary",
+            "button_external": false,
+            "button_icon": false,
+            "button_label2": "",
+            "button_link2": "",
+            "button_anchor2": "",
+            "button_style2": "primary",
+            "button_external2": false,
+            "button_icon2": false
+          }
+        }
+      },
+      "block_order": [
+        "image_TKyH8P"
+      ],
+      "name": "t:sections.slideshow.presets.name",
+      "settings": {
+        "autoplay": false,
+        "autoplay_speed": 5,
+        "show_navigation": true,
+        "image_height": "adapt",
+        "content_width": "small",
+        "image_height_mobile": "adapt",
+        "color_text": "#ffffff",
+        "color_background": "#ffffff",
+        "gradient_background": "",
+        "color_button_text": "#ffffff",
+        "color_button_background": "#ffffff",
+        "color_button_gradient": "",
+        "color_overlay": "#ffffff",
+        "overlay_opacity": 0,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "divider": false,
+        "full_width": true,
+        "rounded": false,
+        "enable_parallax": false,
+        "parallax_direction": "vertical"
+      }
+    },
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "slide-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ride_on_the_scooter_disneyland_mobility_rental_CA.jpg",
+            "image_mobile": "shopify://shop_images/ride_on_the_scooter_disneyland_mobility_rental_app_a878b5ba-0050-4082-830f-92865d46732c.jpg",
+            "heading": "<strong>Mobility Scooter & Power Wheelchair Rentals</strong>",
+            "heading_size": "title-sm",
+            "heading_tag": "h2",
+            "heading_align": "center",
+            "button_label": "PICK UP",
+            "button_link": "shopify://pages/rent-now",
+            "button_anchor": "",
+            "button_style": "primary",
+            "button_external": false,
+            "button_icon": false,
+            "button_label2": "DELIVERY",
+            "button_link2": "shopify://pages/delivery",
+            "button_anchor2": "",
+            "button_style2": "primary",
+            "button_external2": false,
+            "button_icon2": false
+          }
+        }
+      },
+      "block_order": [
+        "slide-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "autoplay": false,
+        "autoplay_speed": 4,
+        "show_navigation": false,
+        "image_height": "700px",
+        "content_width": "medium",
+        "image_height_mobile": "500px",
+        "color_text": "#ffffff",
+        "color_background": "#ffffff",
+        "gradient_background": "",
+        "color_button_text": "#ffffff",
+        "color_button_background": "#00b644",
+        "color_button_gradient": "",
+        "color_overlay": "#171717",
+        "overlay_opacity": 0,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "divider": false,
+        "full_width": true,
+        "rounded": true,
+        "enable_parallax": false,
+        "parallax_direction": "vertical"
+      }
+    },
+    "image_with_text_overlay_aw9tzD": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "liquid_Uwz3RM": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<iframe id=\"booking-frame\" class=\"advance-booking-form\" style=\"width:350px;height:700px;padding-top:10px;\" src=\"https://book.apprentall.cloud/?clientid=100215\" frameborder=\"0\"></iframe>"
+          }
+        }
+      },
+      "block_order": [
+        "liquid_Uwz3RM"
+      ],
+      "disabled": true,
+      "settings": {
+        "transparent_header": false,
+        "image_height": "850px",
+        "content_width": "medium",
+        "content_position": "md:items-center md:justify-end",
+        "text_alignment": "left",
+        "image_mobile": "shopify://shop_images/10001_1x_3142e5a2-760c-417c-8f6f-ff61092a01e3.png",
+        "image_height_mobile": "100vh",
+        "content_position_mobile": "items-center justify-center",
+        "text_alignment_mobile": "center",
+        "color_text": "#ffffff",
+        "color_highlight": "#e0a580",
+        "gradient_highlight": "",
+        "color_button_text": "#171717",
+        "color_button_background": "#ffffff",
+        "color_button_gradient": "",
+        "color_overlay": "#171717",
+        "overlay_opacity": 0,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "divider": false,
+        "full_width": false,
+        "rounded": true,
+        "enable_parallax": true,
+        "parallax_direction": "vertical"
+      }
+    },
+    "multicolumn_with_icons_MNbALk": {
+      "type": "multicolumn-with-icons",
+      "blocks": {
+        "column_jihCnm": {
+          "type": "column",
+          "settings": {
+            "icon": "none",
+            "custom_icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewbox=\"0 0 24 24\" fill=\"currentColor\"><path d=\"M17.0007 1.20825 18.3195 3.68108 20.7923 4.99992 18.3195 6.31876 17.0007 8.79159 15.6818 6.31876 13.209 4.99992 15.6818 3.68108 17.0007 1.20825ZM10.6673 9.33325 15.6673 11.9999 10.6673 14.6666 8.00065 19.6666 5.33398 14.6666.333984 11.9999 5.33398 9.33325 8.00065 4.33325 10.6673 9.33325ZM11.4173 11.9999 9.18905 10.8115 8.00065 8.58325 6.81224 10.8115 4.58398 11.9999 6.81224 13.1883 8.00065 15.4166 9.18905 13.1883 11.4173 11.9999ZM19.6673 16.3333 18.0007 13.2083 16.334 16.3333 13.209 17.9999 16.334 19.6666 18.0007 22.7916 19.6673 19.6666 22.7923 17.9999 19.6673 16.3333Z\"></path></svg>",
+            "heading": "<strong>High-Quality</strong>",
+            "text": "<h5>We provide the best quality Mobility Scooter and Power Wheelchair across the United States</h5>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_8fEVpq": {
+          "type": "column",
+          "settings": {
+            "icon": "none",
+            "custom_icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewbox=\"0 0 24 24\" fill=\"currentColor\"><path d=\"M12 20.8995L16.9497 15.9497C19.6834 13.2161 19.6834 8.78392 16.9497 6.05025C14.2161 3.31658 9.78392 3.31658 7.05025 6.05025C4.31658 8.78392 4.31658 13.2161 7.05025 15.9497L12 20.8995ZM12 23.7279L5.63604 17.364C2.12132 13.8492 2.12132 8.15076 5.63604 4.63604C9.15076 1.12132 14.8492 1.12132 18.364 4.63604C21.8787 8.15076 21.8787 13.8492 18.364 17.364L12 23.7279ZM12 13C13.1046 13 14 12.1046 14 11C14 9.89543 13.1046 9 12 9C10.8954 9 10 9.89543 10 11C10 12.1046 10.8954 13 12 13ZM12 15C9.79086 15 8 13.2091 8 11C8 8.79086 9.79086 7 12 7C14.2091 7 16 8.79086 16 11C16 13.2091 14.2091 15 12 15Z\"></path></svg>",
+            "heading": "<strong>Easy Pickup</strong>",
+            "text": "<h5>With multiple pick-up locations, you can collect your mobility scooter quick and convenient</h5>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_JwF6UQ": {
+          "type": "column",
+          "settings": {
+            "icon": "none",
+            "custom_icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewbox=\"0 0 24 24\" fill=\"currentColor\"><path d=\"M5.32244 5.96559C5.42367 5.85376 5.5282 5.74386 5.63604 5.63602C6.11945 5.15261 6.64417 4.73569 7.19883 4.38526C6.8849 4.29873 6.60274 4.24748 6.35542 4.22882C5.78308 4.18566 5.53243 4.32157 5.42553 4.42847C5.31863 4.53537 5.18272 4.78602 5.22589 5.35835C5.23974 5.54197 5.27156 5.74481 5.32244 5.96559ZM20.7257 14.2107C20.7873 14.3337 20.8463 14.4557 20.9028 14.5766C21.3793 15.5977 21.6941 16.5944 21.7616 17.4903C21.8289 18.3819 21.656 19.3107 20.9819 19.9848C20.3077 20.659 19.379 20.8318 18.4874 20.7646C17.7068 20.7057 16.8497 20.4592 15.9666 20.0815L15.964 20.0827C15.8109 20.0172 15.657 19.9478 15.5025 19.8746C13.4695 18.9123 11.1435 17.2205 8.9599 15.0369C6.77855 12.8556 5.08807 10.5322 4.1252 8.50073C4.05178 8.34582 3.98205 8.19148 3.91629 8.03796L3.91734 8.03582C3.53815 7.15052 3.29057 6.29122 3.23155 5.50877C3.1643 4.61713 3.33717 3.6884 4.01132 3.01425C4.68547 2.34011 5.61419 2.16724 6.50583 2.23449C7.40174 2.30206 8.3984 2.61685 9.41949 3.09335C9.54253 3.15077 9.66667 3.21089 9.79181 3.27366C12.7623 2.52497 16.0404 3.31242 18.364 5.63602C20.6882 7.96029 21.4755 11.2395 20.7257 14.2107ZM19.6128 16.8042C19.2627 17.3578 18.8465 17.8814 18.364 18.3639C18.257 18.4709 18.1479 18.5747 18.037 18.6752C18.2553 18.7252 18.456 18.7565 18.6378 18.7702C19.2101 18.8134 19.4608 18.6775 19.5677 18.5706C19.6746 18.4637 19.8105 18.2131 19.7673 17.6407C19.7488 17.3952 19.6982 17.1154 19.6128 16.8042ZM5.63604 18.3639C3.37241 16.1003 2.56666 12.9309 3.21877 10.0224C4.30105 12.0032 5.92374 14.1221 7.89924 16.0976C9.87632 18.0747 11.9971 19.6985 13.9794 20.7808C11.0705 21.4337 7.90015 20.6281 5.63604 18.3639Z\"></path></svg>",
+            "heading": "<strong>Hassle-Free Rental</strong>",
+            "text": "<h5>No hidden fees. No stress. Our friendly customer team will ensure your smooth rental experience</h5>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "column_jihCnm",
+        "column_8fEVpq",
+        "column_JwF6UQ"
+      ],
+      "settings": {
+        "style": "with-border",
+        "columns": 3,
+        "text_alignment": "left",
+        "heading": "WHY CHOOSE MOOOOV?",
+        "heading_size": "title-sm",
+        "heading_alignment": "text-center md:items-center",
+        "heading_tag": "h4",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 52,
+        "padding_bottom": 48,
+        "divider": false,
+        "full_width": false,
+        "rounded": false
+      }
+    },
+    "multicolumn_kN9UWm": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_NEhjgF": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "image_ratio": "square",
+            "heading": "Choose Your Model",
+            "heading_size": "text-lg-2xl",
+            "text": "<p>Browse our range of lightweight mobility scooters and select the one that suits your needs. Whether it’s a short-term rental or long-term use, we have the perfect ride for you.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_PGebKU": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "image_ratio": "adapt",
+            "heading": "Book and Confirm",
+            "heading_size": "text-lg-2xl",
+            "text": "<p>Reserve your scooter online, choose the rental period and pickup time that fits your schedule. Once your booking is complete, you’ll receive a confirmation, and we’ll have your scooter ready and waiting.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_kzMabr": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "image_ratio": "adapt",
+            "heading": "Easy Pickup",
+            "heading_size": "text-lg-2xl",
+            "text": "<p>Arrive at the designated location at your scheduled time. Our team will assist you with a quick vehicle check and a brief tutorial to ensure you feel confident before hitting the road.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_EAHxGP": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "image_ratio": "adapt",
+            "heading": "Hassle-Free Return",
+            "heading_size": "text-lg-2xl",
+            "text": "<p>When your rental period is over, simply return the scooter to our designated location. Our staff will help with a final inspection and ensure the return process is smooth and fast.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "column_NEhjgF",
+        "column_PGebKU",
+        "column_kzMabr",
+        "column_EAHxGP"
+      ],
+      "disabled": true,
+      "settings": {
+        "gap": "large",
+        "columns": 4,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "heading": "Why Choose Moooov?",
+        "heading_size": "title-md",
+        "heading_alignment": "text-center md:items-center",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 32,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": false
+      }
+    },
+    "image_with_text_overlay_fAPqGt": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_MfemEH": {
+          "type": "heading",
+          "settings": {
+            "heading": "Want Your Scooters Delivered?",
+            "heading_size": "title-sm",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_r7YfrP": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Just submit a delivery request and we’ll handle the rest! </p>",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "button_FBWFdd": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Delivery Request",
+            "button_link": "https://hi-escooter.com/products/ultralight-compact-foldable-mobility-scooter",
+            "button_style": "primary",
+            "button_size": "sm",
+            "button_external": false,
+            "button_icon": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_MfemEH",
+        "text_r7YfrP",
+        "button_FBWFdd"
+      ],
+      "disabled": true,
+      "settings": {
+        "transparent_header": false,
+        "image": "shopify://shop_images/477387775_17867644314304333_8108259990784917358_1400_700x_fc02bd52-4620-42a3-a00c-e44248c73a10.jpg",
+        "image_height": "700px",
+        "content_width": "small",
+        "content_position": "md:items-start md:justify-center",
+        "text_alignment": "center",
+        "image_mobile": "shopify://shop_images/800_1100_app_mobility_scooter_foldable_fit_in_trunk.jpg",
+        "image_height_mobile": "500px",
+        "content_position_mobile": "items-start justify-center",
+        "text_alignment_mobile": "center",
+        "color_text": "#ffffff",
+        "color_highlight": "#00b644",
+        "gradient_highlight": "",
+        "color_button_text": "#ffffff",
+        "color_button_background": "#00b644",
+        "color_button_gradient": "",
+        "color_overlay": "rgba(0,0,0,0)",
+        "overlay_opacity": 0,
+        "padding_top": 12,
+        "padding_bottom": 12,
+        "divider": false,
+        "full_width": false,
+        "rounded": true,
+        "enable_parallax": false,
+        "parallax_direction": "vertical"
+      }
+    },
+    "image_with_text_overlay_HVYeCB": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_qYQiw6": {
+          "type": "heading",
+          "settings": {
+            "heading": "LONG RANGE, POWERFUL",
+            "heading_size": "title-sm",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_ekbJwH": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Book now and enjoy a lower average marketing price!</p>",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "button_bc8tDd": {
+          "type": "button",
+          "settings": {
+            "button_label": "Explore Our Scooters",
+            "button_link": "shopify://products/metro-mobility-max-sport",
+            "button_style": "primary",
+            "button_size": "sm",
+            "button_external": false,
+            "button_icon": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_qYQiw6",
+        "text_ekbJwH",
+        "button_bc8tDd"
+      ],
+      "disabled": true,
+      "settings": {
+        "transparent_header": false,
+        "image": "shopify://shop_images/black_mobiliity_scooter_rental_service_in_CA_anaheim.jpg",
+        "image_height": "700px",
+        "content_width": "small",
+        "content_position": "md:items-end md:justify-center",
+        "text_alignment": "center",
+        "image_mobile": "shopify://shop_images/ride_scooter_in_theme_park_LA_rental_8001100_77be1ba5-f85f-4673-b79d-55aaf070c971.png",
+        "image_height_mobile": "500px",
+        "content_position_mobile": "items-start justify-center",
+        "text_alignment_mobile": "center",
+        "color_text": "#ffffff",
+        "color_highlight": "#00b644",
+        "gradient_highlight": "",
+        "color_button_text": "#ffffff",
+        "color_button_background": "#00b644",
+        "color_button_gradient": "",
+        "color_overlay": "#171717",
+        "overlay_opacity": 30,
+        "padding_top": 16,
+        "padding_bottom": 16,
+        "divider": false,
+        "full_width": false,
+        "rounded": true,
+        "enable_parallax": false,
+        "parallax_direction": "vertical"
+      }
+    },
+    "multicolumn_4WLjT7": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_J8XK8F": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "image": "shopify://shop_images/MAX_SPORT_Standard_Transportable_Mobility_Scooter_Main_Pic.jpg",
+            "image_ratio": "square",
+            "heading": "<strong>Standard Mobility Scooter - Long Range</strong>",
+            "heading_size": "text-base-xl",
+            "text": "<h6><em>Capacity 300lbs | Ultimate Comfort</em></h6><h6><em>$39/day | $139/week | $290/mon</em></h6>",
+            "button_label": "Check Availability",
+            "button_link": "shopify://products/metro-mobility-max-sport",
+            "button_style": "primary",
+            "button_external": false,
+            "button_icon": true,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_Tz9bi3": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "image": "shopify://shop_images/air_classic_mobility_scooters_main_pic.png",
+            "image_ratio": "square",
+            "heading": "<strong>Lightweight Foldable Mobility Scooter - Long Range</strong>",
+            "heading_size": "text-base-xl",
+            "text": "<h6><em>Capacity 265lbs | Max Gradient 12°</em></h6><h6><em>$39/day | $139/week |$290/mon</em></h6>",
+            "button_label": "Check Availability",
+            "button_link": "shopify://products/metro-mobility-air-classic",
+            "button_style": "primary",
+            "button_external": false,
+            "button_icon": true,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_mfnTay": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "image": "shopify://shop_images/Solax_2020_Ultralight_Foldable_Mobility_Scooter_main_pic.jpg",
+            "image_ratio": "square",
+            "heading": "<strong>Lightweight Compact Foldable Mobility Scooter - Standard Range</strong>",
+            "heading_size": "text-base-xl",
+            "text": "<h6><em>Capacity 265lbs | Speed 5mph</em></h6><h6><em>$49/day | $149/week | $300/mon</em></h6>",
+            "button_label": "Check Availability",
+            "button_link": "shopify://products/ultralight-compact-foldable-mobility-scooter",
+            "button_style": "primary",
+            "button_external": false,
+            "button_icon": true,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "column_J8XK8F",
+        "column_Tz9bi3",
+        "column_mfnTay"
+      ],
+      "disabled": true,
+      "settings": {
+        "gap": "large",
+        "columns": 3,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "heading": "Explore Our Scooters",
+        "heading_size": "title-md",
+        "heading_alignment": "text-center md:items-center",
+        "heading_tag": "h3",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": false,
+        "highlighted_text": "scribble",
+        "highlighted_scribble": "squiggle-underline-2",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "#00b644",
+        "gradient_highlight": "",
+        "color_button_text": "#ffffff",
+        "color_button_background": "#00b644",
+        "color_button_gradient": "",
+        "padding_top": 48,
+        "padding_bottom": 36,
+        "divider": false,
+        "full_width": false,
+        "rounded": false
+      }
+    },
+    "custom_liquid_chxXxR": {
+      "type": "custom-liquid",
+      "custom_css": [],
+      "settings": {
+        "liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Rentals near you</title>\n    <style>\n        * {\n            margin: 0;\n            padding: 0;\n            box-sizing: border-box;\n            font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, Ubuntu, Cantarell, sans-serif;\n        }\n\n        /* body { background: #e5e7eb; } */\n       .container {\n            max-width: 1200px;\n            margin: 0 auto;\n            padding: 20px 15px;\n        }\n\n       .header-section {\n            text-align: center;\n            margin-bottom: 30px;\n        }\n\n       .main-title {\n            font-size: 28px;\n            color: #1a1a1a;\n            margin-bottom: 12px;\n        }\n\n       .sub-title {\n            font-size: 16px;\n            color: #4b535e;\n            margin-bottom: 20px;\n        }\n\n       .search-box {\n            display: flex;\n            justify-content: center;\n            margin-bottom: 30px;\n        }\n\n       .carousel-section {\n            position: relative;\n            margin-bottom: 20px;\n        }\n\n       .image-carousel {\n            display: flex;\n            overflow-x: auto;\n            scroll-behavior: smooth;\n            -webkit-overflow-scrolling: touch;\n            padding-bottom: 5px;\n        }\n\n       .image-carousel::-webkit-scrollbar {\n            display: none;\n        }\n\n       .carousel-item {\n            flex: 0 0 auto;\n            margin-right: 15px;\n            background: white;\n            border-radius: 8px;\n            overflow: hidden;\n            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);\n            cursor: pointer;\n        }\n\n       .carousel-item img {\n            width: 240px;\n            height: 160px;\n            object-fit: cover;\n            border-radius: 8px 8px 0 0;\n        }\n\n       .city-name {\n            padding: 12px 16px;\n            font-size: 15px;\n            color: #374151;\n            text-align: center;\n            background: #fff;\n            border-radius: 0 0 8px 8px;\n        }\n\n       .carousel-control {\n            position: absolute;\n            top: 50%;\n            transform: translateY(-50%);\n            background: white;\n            border: 1px solid #d1d5db;\n            border-radius: 50%;\n            width: 40px;\n            height: 40px;\n            font-size: 16px;\n            cursor: pointer;\n            display: flex;\n            align-items: center;\n            justify-content: center;\n        }\n\n       .prev {\n            left: -20px;\n        }\n\n       .next {\n            right: -20px;\n        }\n\n       .see-all-link {\n            text-align: center;\n        }\n\n       .see-all-link a {\n            color: #1a1a1a;\n            text-decoration: underline;\n            font-size: 14px;\n        }\n\n        /* 新增按钮样式 */\n       .search-box button {\n            background-color: #00B644;\n            color: white;\n            border-radius: 50px; /* 使按钮变为椭圆形 */\n            padding: 10px 20px;\n            font-size: 16px;\n            cursor: pointer;\n            transition: background-color 0.3s ease, color 0.3s ease;\n        }\n\n       .search-box button:hover {\n            background-color: #058835;\n            color: white;\n        }\n\n        @media (max-width: 768px) {\n           .carousel-item img {\n                width: 180px;\n                height: 120px;\n            }\n        }\n    </style>\n</head>\n\n<body>\n    <div class=\"container\">\n        <div class=\"header-section\">\n            <h1 class=\"main-title\">Rentals near you</h1>\n            <p class=\"sub-title\">We deliver to hotels, attractions, airbnb and airports</p>\n            <div class=\"search-box\">\n                <!-- 新增跳转按钮 -->\n                <button id=\"jumpButton\">Find Your City</button>\n            </div>\n        </div>\n        <div class=\"carousel-section\">\n            <button class=\"carousel-control prev\">&#8592;</button>\n            <div class=\"image-carousel\" id=\"carousel-items\">\n                <!-- 动态生成轮播项 -->\n            </div>\n            <button class=\"carousel-control next\">&#8594;</button>\n        </div>\n    </div>\n    <script>\n        const carouselItems = document.getElementById('carousel-items');\n        const jumpButton = document.getElementById('jumpButton');\n\n        // 获取数据\n        fetch('https://cdn.shopify.com/s/files/1/0592/3310/8023/files/mainpagesearch.json?v=1747793607')\n           .then(response => response.json())\n           .then(data => {\n                const cityData = data;\n                renderCities(cityData);\n            })\n           .catch(error => console.error('Error fetching data:', error));\n\n        function renderCities(data) {\n            carouselItems.innerHTML = '';\n\n            data.forEach(item => {\n                const itemDiv = document.createElement('div');\n                itemDiv.className = 'carousel-item';\n                itemDiv.innerHTML = `\n                    <a href=\"${item.pageLink}\" target=\"_blank\">\n                        <img src=\"${item.imageUrl}\" alt=\"${item.altText}\">\n                    </a>\n                    <div class=\"city-name\">${item.cityName}</div>\n                `;\n                carouselItems.appendChild(itemDiv);\n            });\n        }\n\n        const prevBtn = document.querySelector('.prev');\n        const nextBtn = document.querySelector('.next');\n        prevBtn.addEventListener('click', () => {\n            carouselItems.scrollLeft -= 260;\n        });\n        nextBtn.addEventListener('click', () => {\n            carouselItems.scrollLeft += 260;\n        });\n\n        // 为按钮添加点击事件\n        jumpButton.addEventListener('click', () => {\n            window.location.href = 'https://www.moooov.us/pages/cities';\n        });\n    </script>\n</body>\n\n</html>",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 32,
+        "padding_bottom": 72,
+        "divider": false,
+        "narrow": false,
+        "rounded": false
+      }
+    },
+    "testimonials-banner": {
+      "type": "testimonials-banner",
+      "blocks": {
+        "testimonial-1": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "none",
+            "text": "<h3>Best decision ever! The scooter was a lifesaver for my recent trip. Customer service was excellent, and the team even helped me choose the perfect model. Five stars for quality, convenience, and outstanding service!</h3>",
+            "author": "Alex",
+            "author_info": "",
+            "author_url": "",
+            "image_ratio": "rounded",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "testimonial-2": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "none",
+            "text": "<h3>Fantastic experience from start to finish! The booking process was super easy, and the scooter was in excellent condition. I was able to navigate around town effortlessly. Definitely a top choice for anyone in need of a mobility solution.</h3>",
+            "author": "John",
+            "author_info": "",
+            "author_url": "",
+            "image_ratio": "rounded",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "testimonial-3": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "none",
+            "text": "<h3>Best decision ever! The scooter was a lifesaver for my recent trip. Customer service was excellent, and the team even helped me choose the perfect model. Five stars for quality, convenience, and outstanding service!</h3>",
+            "author": "Louis",
+            "author_info": "",
+            "author_url": "",
+            "image_ratio": "rounded",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial-1",
+        "testimonial-2",
+        "testimonial-3"
+      ],
+      "settings": {
+        "transparent_header": false,
+        "image": "shopify://shop_images/annedr-blog-garden.jpg",
+        "image_height": "600px",
+        "content_position": "md:items-center md:justify-center",
+        "image_height_mobile": "500px",
+        "content_position_mobile": "items-center justify-center",
+        "color_text": "#ffffff",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_overlay": "#171717",
+        "overlay_opacity": 40,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "divider": false,
+        "rounded": true,
+        "enable_parallax": false,
+        "parallax_direction": "vertical"
+      }
+    },
+    "blog_posts_qeHtpr": {
+      "type": "blog-posts",
+      "settings": {
+        "blog": "blog",
+        "post_limit": 3,
+        "columns": 3,
+        "carousel_on_desktop": false,
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "image_ratio": "landscape",
+        "show_tags": false,
+        "show_date": false,
+        "show_comments": false,
+        "show_author": false,
+        "show_excerpt": false,
+        "heading": "BLOG",
+        "heading_size": "title-md",
+        "heading_alignment": "text-center md:items-center",
+        "heading_tag": "h3",
+        "subheading": "",
+        "description": "",
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "#00b644",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": false
+      }
+    },
+    "scrolling-text-2": {
+      "type": "scrolling-text",
+      "blocks": {
+        "image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/900x900_2.png",
+            "height": 60
+          }
+        }
+      },
+      "block_order": [
+        "image-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "direction": "right",
+        "speed": 5,
+        "grid_horizontal": 140,
+        "enable_twin": true,
+        "enable_parallax": true,
+        "color_text": "",
+        "color_background": "#a8e8e2",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "divider": false,
+        "rounded": false
+      }
+    }
+  },
+  "order": [
+    "slideshow_9Uzy3z",
+    "featured_collections_qknbP7",
+    "custom_liquid_awBNLL",
+    "slideshow_aQg4GG",
+    "slideshow_rMpwLb",
+    "slideshow_xMz9cH",
+    "slideshow",
+    "image_with_text_overlay_aw9tzD",
+    "multicolumn_with_icons_MNbALk",
+    "multicolumn_kN9UWm",
+    "image_with_text_overlay_fAPqGt",
+    "image_with_text_overlay_HVYeCB",
+    "multicolumn_4WLjT7",
+    "custom_liquid_chxXxR",
+    "testimonials-banner",
+    "blog_posts_qeHtpr",
+    "scrolling-text-2"
+  ]
+}

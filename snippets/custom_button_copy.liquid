@@ -1,0 +1,146 @@
+{%- comment -%}
+  Renders a button (or link styled as a button)
+
+  Accepts:
+  block:直接传递当前使用的block
+  - label: {String} the label of the button.
+  - link: {String} an optional link to set.
+  - size: {String} can be "small", "large". If none is set, the default size is used.
+  - style: {String} "primary", "secondary" or "link". If none is set "primary" is assumed.
+  - external: {String} if set to true and that a href is passed, it opens into a new window.
+  - show_icon: {Boolean} if set to true, render a icon along the button.
+  - classes: {String} the extra classes.
+  - shopify_attributes: {String} the shopify attributes.
+
+  - position 按钮定位
+  - clickable: {Boolean} 按钮是否可点击.
+  - label_size:按钮文本字体大小,
+  - bg_color: 按钮背景色,
+  - label_color: 按钮文本色,
+  - vertical_position: 纵向位置 (top,center,bottom,custom) ,
+  - horizontal_position: 横向向位置 (left,center,right,custom),
+  - custom_vertical : 自定义纵向定位百分比(vertical_position为自定义时有效),
+  - custom_horizontal: 自定义横向定位百分比(horizontal_position为自定义时有效),
+  - padding_vertical: 纵向padding,
+  - padding_horizontal: 横向padding,
+
+  Usage:
+  {% render 'button', label: 'Button label', link: '#' %}
+{%- endcomment -%}
+
+<style>
+  .events_none {
+    pointer-events:none;
+  }
+  .custom-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 10;
+    border: none;
+    box-shadow:unset;
+
+    /* 动态样式 */
+    background: {{ bg_color }};
+    color: {{ label_color }};
+    font-size:{{label_size}}rem;
+    padding: {{ padding_vertical }}px {{ padding_horizontal }}px;
+
+
+
+    /* 垂直定位 */
+    {% case vertical_position %}
+      {% when 'top' %}
+        top: 0;
+        transform: translateY(0);
+      {% when 'center' %}
+        top: 50%;
+        transform: translateY(-50%);
+      {% when 'bottom' %}
+        bottom: 0;
+        transform: translateY(0);
+      {% when 'custom' %}
+        top: {{ custom_vertical }}%;
+        transform: translateY(-50%);
+    {% endcase %}
+
+    /* 水平定位 */
+    {% case horizontal_position %}
+      {% when 'left' %}
+        left: 0;
+        transform: translateX(0);
+      {% when 'center' %}
+        left: 50%;
+        transform: translateX(-50%);
+      {% when 'right' %}
+        right: 0;
+        transform: translateX(0);
+      {% when 'custom' %}
+        left: {{ custom_horizontal }}%;
+        transform: translateX(-50%);
+    {% endcase %}
+
+    /* 合并transform */
+    {% if vertical_position == 'center' or horizontal_position == 'center'
+          or vertical_position == 'custom' or horizontal_position == 'custom' %}
+      transform:
+        {% if horizontal_position == 'center' or horizontal_position == 'custom' %}translateX(-50%){% else %}translateX(0){% endif %}
+        {% if vertical_position == 'center' or vertical_position == 'custom' %}translateY(-50%){% else %}translateY(0){% endif %};
+    {% endif %}
+  }
+</style>
+
+{% assign button_position = position | default: 'absolute' %}
+<h1>{{ button_position }}--{{ block.id }}</h1>
+{%- if style == 'link' -%}
+  <a
+    class="
+      custom-button link inline-block {{ button_position }}
+      {% if classes != blank %} {{ classes }}{% endif %}
+      {% if show_icon %} icon-with-text{% endif %}
+    "
+    {% if link != blank %}
+      href="{{ link }}"
+      {% if external %} target="_blank" rel="noopener"{% endif -%}
+    {% else %}
+      role="link" aria-disabled="true"
+    {% endif %}
+    is="hover-link"
+    {{ shopify_attributes }}
+  >
+    <span class="link-text">{{ label | escape }}</span>
+    {%- liquid
+      if show_icon
+        render 'icon', icon: 'arrow-right', size: 'sm', class: 'transform'
+      endif
+    -%}
+  </a>
+{%- else -%}
+  <a
+    class="
+      custom-button button button--{{ style | default: 'primary' }} button--{{ size | default: 'md' }} 
+      {{- button_position -}}
+      {% if classes != blank %} {{ classes }}{% endif %}
+      {% if show_icon %} icon-with-text{% endif %} {% unless clickable %}events_none{% endunless %}
+    "
+    {% if link != blank %}
+      href="{{ link }}"
+      {% if external %} target="_blank" rel="noopener"{% endif -%}
+    {% else %}
+      role="link" aria-disabled="true"
+    {% endif %}
+    is="hover-link"
+    {{ shopify_attributes }}
+  >
+    <span class="btn-fill" data-fill></span>
+    <span class="btn-text">
+      {%- liquid
+        echo label | escape
+        if show_icon
+          render 'icon', icon: 'arrow-right', size: 'sm', class: 'transform'
+        endif
+      -%}
+    </span>
+  </a>
+{%- endif -%}
